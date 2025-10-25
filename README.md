@@ -1,4 +1,4 @@
-# OriC Finder — Full-stack (React + Flask)
+# OriC Finder
 
 **OriC Finder** predicts the origin of replication (OriC) in prokaryotic genomes using GC-skew analysis and frequent k-mer detection.
 This repo contains a React frontend and a Flask backend (with Matplotlib server-side plotting).
@@ -11,7 +11,6 @@ https://oric-finder.onrender.com/
 - Compute cumulative G-C skew and find minimum skew position (OriC)
 - Extract configurable window around OriC and find most frequent k-mers
 - Server-side skew plot (Matplotlib) returned as PNG and displayed in the UI
-- Ready for deployment (Procfile, gunicorn)
 
 ## Quick start (development)
 ### Backend
