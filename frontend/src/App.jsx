@@ -72,7 +72,7 @@ Window: [{result.window_start}, {result.window_end}] (size {result.window_size})
             </div>
           </section>}
 
-          <footer className="muted">Built with React + Flask · Ready for deployment</footer>
+          <footer className="muted"></footer>
         </div>
       )
     }
