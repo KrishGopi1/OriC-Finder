@@ -98,12 +98,10 @@ def analyze():
         'skew_plot': img_b64
     }
     return jsonify(result)
-
-# Serve frontend (built files) if present
+    
 @app.route('/', defaults={'path': ''})
 @app.route('/<path:path>')
 def serve(path):
-    # If the path exists in frontend/dist, serve it, otherwise return index.html
     try:
         return send_from_directory(app.static_folder, path)
     except:
